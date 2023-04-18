@@ -2,32 +2,32 @@
 # Event Listing Template
 A simple FE application using React and bootstrap.
 The application is receiving this data from a headless CMS:
-
 ```json
 [
   {
-    Title: "Beethoven's Greatest Works",
-    Type: "Master’s Performance",
-    Dates: [
+    "Title": "Beethoven's Greatest Works",
+    "Type": "Master’s Performance",
+    "Dates": [
       "2023-06-23T23:00:00Z",
       "2023-07-23T23:00:00Z",
-      "2023-08-23T23:00:00Z",
+      "2023-08-23T23:00:00Z"
     ],
-    Image: "https://onepeterfive.com/wp-content/uploads/2020/12/Beethoven1-1536x948.jpg",
-    Description: "Come witness this amazing performance.",
+    "Image": "{plugin any image url here}",
+    "Description": "Come witness this amazing performance."
   },
-  {
-    Title: "Mozart's Greatest Works",
-    Type: "Expert's Performance",
-    Dates: [
+    {
+    "Title": "Mozart's Greatest Works",
+    "Type": "Expert's Performance",
+    "Dates": [
       "2023-06-23T23:00:00Z",
       "2023-07-23T23:00:00Z",
-      "2023-08-23T23:00:00Z",
+      "2023-08-23T23:00:00Z"
     ],
-    Image: "https://www.thecultureconcept.com/wp-content/uploads/2014/08/Mozart-e1475041741130.jpg"
-    Description: "Come witness this really cool performance."
+    "Image": "{plugin any image url here}",
+    "Description": "Come witness this really cool performance."
   }
 ]
+
 ```
 It's hardcoded JSON data in a mock service layer as if it was queried from an API from a headless CMS. The data has been rendered out as event cards using all fields in the above data (one card per date) as if it were displaying an event listing for the world renowned venue “Bob’s Orchestra Hall”, which is an organization located in Seattle, WA. The date and time is in a friendly format, matching the time the event would happen in Seattle. Minimal css styling on the event cards.
 
