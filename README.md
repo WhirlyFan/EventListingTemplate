@@ -20,3 +20,9 @@ The application is receiving this data from a headless CMS:
 Wrap it in a mock service layer as if you were querying an API from a headless CMS, but you can just use the above hardcoded JSON data.
 Your goal is to render event cards using all fields in the above data (one card per date), as if you were displaying an event listing for the world renown venue “Bob’s Orchestra Hall”, which is an organization located in Seattle, WA. Remember to display the date and time in a friendly format, matching the time the event would happen in Seattle.
 Style the event cards to your liking.
+
+## To Run Dev Server
+Node v16.19.1
+```js
+npm install && npm start
+```
