@@ -23,6 +23,7 @@ Style the event cards to your liking.
 
 ## To Run Dev Server
 Node v16.19.1
+Npm v8.19.3
 ```js
 npm install && npm start
 ```
