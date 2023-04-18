@@ -1,5 +1,6 @@
-
 # Event Listing Template
+![preview](https://cdn.discordapp.com/attachments/1054651338170056734/1097703519768813689/screencapture-localhost-3000-2023-04-17-18_44_44.jpg "preview")
+
 A simple FE application using React and bootstrap.
 The application is receiving this data from a headless CMS:
 ```json
